@@ -1,11 +1,10 @@
 {
   "name": "lsr/better-scroll",
-  "version": "0.1.0",
   "description": "Add a better looking scroll bar.",
   "type": "flarum-extension",
   "license": "MIT",
   "require": {
-    "flarum/core": "^*"
+    "flarum/core": "*"
   },
   "autoload": {
     "files": [
@@ -17,9 +16,6 @@
       "title": "Better Scroll",
       "icon": {
         "name": "fas fa-paint-brush"
-      },
-      "compatibility": {
-        "flarum/core": "*"
       }
     }
   }
