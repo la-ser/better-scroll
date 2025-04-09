@@ -5,7 +5,7 @@
   "type": "flarum-extension",
   "license": "MIT",
   "require": {
-    "flarum/core": "^0.1 || ^1.0"
+    "flarum/core": "^*"
   },
   "autoload": {
     "files": [
@@ -19,7 +19,7 @@
         "name": "fas fa-paint-brush"
       },
       "compatibility": {
-        "flarum/core": "^0.1 || ^1.0"
+        "flarum/core": "*"
       }
     }
   }
