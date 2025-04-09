@@ -4,7 +4,12 @@
   "type": "flarum-extension",
   "license": "MIT",
   "require": {
-    "flarum/core": "^1.8.10"
+    "flarum/core": "^0.1 || ^1.0"
+  },
+  "autoload": {
+    "files": [
+      "extend.php"
+    ]
   },
   "extra": {
     "flarum-extension": {
