@@ -17,6 +17,9 @@
       "title": "Better Scroll",
       "icon": {
         "name": "fas fa-paint-brush"
+      },
+      "compatibility": {
+        "flarum/core": "^0.1 || ^1.0"
       }
     }
   }
