@@ -1,22 +1,49 @@
 {
-  "name": "lsr/better-scroll",
-  "description": "Add a better looking scroll bar.",
-  "type": "flarum-extension",
-  "license": "MIT",
-  "require": {
-    "flarum/core": "*"
-  },
-  "autoload": {
-    "files": [
-      "extend.php"
-    ]
-  },
-  "extra": {
-    "flarum-extension": {
-      "title": "Better Scroll",
-      "icon": {
-        "name": "fas fa-paint-brush"
-      }
+    "name": "lsr/better-scroll",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.8"
+    },
+    "authors": [
+        {
+            "name": "lsr",
+            "homepage": "https://github.com/la-ser",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "flarum-extension": {
+            "title": "Better Scroll",
+            "category": "theme",
+            "icon": {
+                "name": "fas fa-ellipsis-h",
+                "backgroundColor": "#0F9D58",
+                "color": "#fff"
+            }
+        },
+        "optional-dependencies": [
+            "flarum/tags"
+        ],
+        "flarum-cli": {
+            "modules": {
+                "admin": false,
+                "forum": true,
+                "js": false,
+                "jsCommon": false,
+                "gitConf": false,
+                "githubActions": false,
+                "prettier": false,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": false,
+                "styleci": false,
+                "css": true
+            }
+        }
     }
-  }
 }
