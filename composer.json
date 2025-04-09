@@ -3,9 +3,6 @@
   "description": "Add a better looking scroll bar.",
   "type": "flarum-extension",
   "license": "MIT",
-  "require": {
-    "flarum/core": "^0.1"
-  },
   "extra": {
     "flarum-extension": {
       "title": "Better Scroll",
