@@ -1,5 +1,6 @@
 {
   "name": "lsr/better-scroll",
+  "version": "0.1.0",
   "description": "Add a better looking scroll bar.",
   "type": "flarum-extension",
   "license": "MIT",
