@@ -1,0 +1,17 @@
+{
+  "name": "your-vendor/my-extension",
+  "description": "A simple extension adding custom CSS.",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "My Extension",
+      "icon": {
+        "name": "fas fa-paint-brush"
+      }
+    }
+  }
+}
