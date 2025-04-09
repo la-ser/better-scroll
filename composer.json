@@ -1,6 +1,6 @@
 {
-  "name": "your-vendor/my-extension",
-  "description": "A simple extension adding custom CSS.",
+  "name": "lsr/better-scroll",
+  "description": "Add a better looking scroll bar.",
   "type": "flarum-extension",
   "license": "MIT",
   "require": {
@@ -8,7 +8,7 @@
   },
   "extra": {
     "flarum-extension": {
-      "title": "My Extension",
+      "title": "Better Scroll",
       "icon": {
         "name": "fas fa-paint-brush"
       }
